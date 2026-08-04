@@ -1,0 +1,91 @@
+body{
+font-family:Arial,sans-serif;
+margin:0;
+background:#fff5f8;
+color:#333;
+}
+
+header{
+background:white;
+display:flex;
+justify-content:space-between;
+padding:20px 40px;
+position:sticky;
+top:0;
+box-shadow:0 2px 15px rgba(0,0,0,.08);
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#d85b9b;
+}
+
+nav a{
+margin-left:20px;
+text-decoration:none;
+color:#444;
+font-weight:bold;
+}
+
+.hero{
+text-align:center;
+padding:90px 20px;
+background:linear-gradient(#ffe8f2,#fff);
+}
+
+.button{
+background:#d85b9b;
+color:white;
+padding:15px 35px;
+border-radius:30px;
+text-decoration:none;
+display:inline-block;
+margin-top:20px;
+}
+
+.categories,
+.catalog{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+padding:40px;
+}
+
+.card,
+.product{
+background:white;
+padding:25px;
+border-radius:18px;
+box-shadow:0 5px 18px rgba(0,0,0,.08);
+transition:.3s;
+text-align:center;
+}
+
+.card:hover,
+.product:hover{
+transform:translateY(-8px);
+}
+
+.product a{
+display:inline-block;
+margin-top:15px;
+background:#ff5ca8;
+color:white;
+padding:10px 20px;
+border-radius:20px;
+text-decoration:none;
+}
+
+.farmasi{
+background:#ffe0ef;
+padding:60px 20px;
+text-align:center;
+}
+
+footer{
+background:white;
+text-align:center;
+padding:25px;
+margin-top:40px;
+}
