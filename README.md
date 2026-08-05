@@ -1,2 +1,2 @@
-# princessroom-.shop
+# princessroom.shop
 princessroom.shop
